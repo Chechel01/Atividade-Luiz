@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(Blue, blueviolet, white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 350px;
+    margin-bottom: 40px;
+}
+.central{
+    \\background:linear-gradient(Black, white);
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.central div button{
+    width: 115px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.central div button:hover{
+    background: rgb(59, 59, 241);
+}

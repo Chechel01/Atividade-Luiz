@@ -1,0 +1,21 @@
+@font-face {
+    font-family: league; /*Apelido para a fonte league*/
+    src: url('/images/LethalLeague.ttf');
+}
+
+
+
+body{
+    background: url('/images/team_graves_8.jpg'); /*pra adicionar uma imagem e so colocar o "/" na frente*/
+    background-size: cover;  /* Imagem se ajustar a tela*/
+    background-repeat: no-repeat; /*Pra imagem nao repetir*/
+    height: 100vh; /*pra imagem ficar no tamanho da tela*/
+}
+h1{
+    font-size: 110px;
+    text-align: center; /*Centralizar o texto*/
+    color: white;
+    font-family: league; /*pra colocar a fonte virtualizada*/
+    font-weight: none; /*Pra tirar o efgeito de destaque*/
+
+}
